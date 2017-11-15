@@ -1,0 +1,57 @@
+.wrapper {
+    width: calc(100vw - 16px);
+    height: calc(100vh - 16px);
+}
+.col {
+    display: flex;
+    width: 100%;
+    height:100%;
+}
+.pdL4 {
+    padding-left: 40px;
+}
+angular-jsoneditor.left, angular-jsoneditor.right{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+div.jsoneditor{
+    color: #1a1a1a;
+    border-bottom: 1px solid #0043b1;
+}
+div.jsoneditor-menu{
+    background-image: linear-gradient(to bottom, #0043b1,#000f3a);
+    border-bottom: 1px solid #0043b1;
+}
+.jsoneditor-value.jsoneditor-boolean{
+    color:#ff5722 !important;
+}
+.ace-jsoneditor .ace_text-layer{
+    color: #757575 !important;
+}
+.ace-jsoneditor.ace_editor{
+    font-family: inconsolata !important;
+    line-height: 1.5 !important;
+    font-size:14px !important;
+}
+.ace_gutter-cell{}
+.ace-jsoneditor .ace_cursor{}
+.ace_content{
+    color:#585858;
+    font-family: inconsolata;
+    font-weight: bold;
+}
+.jsoneditor-schema-error, div.jsoneditor-field, div.jsoneditor-value, div.jsoneditor td, div.jsoneditor textarea, div.jsoneditor th{
+	font-family: inconsolata !important;
+    font-weight: bold;
+    font-size: 14px !important;
+}
+div.jsoneditor-field{
+	 color:#585858 !important;
+}
+.ace-jsoneditor .ace_variable{
+    color: #585858 !important;
+}
+.ace-jsoneditor .ace_constant.ace_language{
+    color : #ff5722 !important;
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="ngApp">
+<head>
+    <meta charset="utf-8">
+    <title>Angular Json Editor</title>
+</head>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="../css/default.css" rel="stylesheet">
+<body>
+<div ng-controller="ngCtrl" class="wrapper">
+    <div class="col">
+       <angular-jsoneditor ng-model="obj.data" options="obj.optionsOne" class="left"></angular-jsoneditor>
+       <angular-jsoneditor ng-model="obj.data" options="obj.optionsTwo" class="right"></angular-jsoneditor>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js" type="text/javascript"></script>
+<script src="../js/angular-jsoneditor.js" type="text/javascript"></script>
+<script src="../js/jsoneditor.js" type="text/javascript"></script>
+</body>
+</html>
