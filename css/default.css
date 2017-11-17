@@ -1,3 +1,7 @@
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
 .wrapper {
     width: calc(100vw - 16px);
     height: calc(100vh - 16px);

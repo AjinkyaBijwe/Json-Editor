@@ -8,7 +8,7 @@
     <link href="css/default.css" rel="stylesheet">
     <link href="css/dark.css" rel="stylesheet" id="darkCSS">
 <body>
-<div ng-controller="ngCtrl" class="wrapper">
+<div ng-controller="ngCtrl" class="wrapper" ng-cloak>
     <div class="col">
        <angular-jsoneditor ng-model="obj.data" options="obj.optionsOne" class="left"></angular-jsoneditor>
        <button class="darkmode" ng-click="switchMode()"> {{darkMode ? 'Default Mode' : 'Dark Mode'}}</button>
