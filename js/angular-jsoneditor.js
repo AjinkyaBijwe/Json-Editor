@@ -4977,7 +4977,16 @@
                     var s = this.childs ? this.childs.length : 0;
                     e.title = this.type + " containing " + s + " items"
                 } else r && this.editable.value ? e.title = "Ctrl+Click or Ctrl+Enter to open url in new window" : e.title = "";
-                if ("boolean" === n && this.editable.value ? (this.dom.checkbox || (this.dom.checkbox = document.createElement("input"), this.dom.checkbox.type = "checkbox", this.dom.tdCheckbox = document.createElement("td"), this.dom.tdCheckbox.className = "jsoneditor-tree", this.dom.tdCheckbox.appendChild(this.dom.checkbox), this.dom.tdValue.parentNode.insertBefore(this.dom.tdCheckbox, this.dom.tdValue)), this.dom.checkbox.checked = this.value) : this.dom.tdCheckbox && (this.dom.tdCheckbox.parentNode.removeChild(this.dom.tdCheckbox), delete this.dom.tdCheckbox, delete this.dom.checkbox), this.enum && this.editable.value) {
+                if ("boolean" === n && this.editable.value ? (this.dom.checkbox || 
+                (this.dom.checkbox = document.createElement("input"),
+                this.dom.label = document.createElement("label"),
+                this.dom.checkbox.type = "checkbox",
+                this.dom.tdCheckbox = document.createElement("td"),
+                this.dom.tdCheckbox.className = "jsoneditor-tree-checkbox",
+                this.dom.tdCheckbox.appendChild(this.dom.checkbox),
+                this.dom.tdCheckbox.appendChild(this.dom.label),
+                this.dom.tdValue.parentNode.insertBefore(this.dom.tdCheckbox, this.dom.tdValue)), 
+                 this.dom.checkbox.checked = this.value) : this.dom.tdCheckbox && (this.dom.tdCheckbox.parentNode.removeChild(this.dom.tdCheckbox), delete this.dom.tdCheckbox, delete this.dom.checkbox), this.enum && this.editable.value) {
                     if (!this.dom.select) {
                         this.dom.select = document.createElement("select"), this.id = this.field + "_" + (new Date).getUTCMilliseconds(), this.dom.select.id = this.id, this.dom.select.name = this.dom.select.id, this.dom.select.option = document.createElement("option"), this.dom.select.option.value = "", this.dom.select.option.innerHTML = "--", this.dom.select.appendChild(this.dom.select.option);
                         for (var l = 0; l < this.enum.length; l++) this.dom.select.option = document.createElement("option"), this.dom.select.option.value = this.enum[l], this.dom.select.option.innerHTML = this.enum[l], this.dom.select.option.value == this.value && (this.dom.select.option.selected = !0), this.dom.select.appendChild(this.dom.select.option);
@@ -16175,5 +16184,4 @@
             }
         }()
     }])
-});
-//# sourceMappingURL=angular-jsoneditor.js.map
+}); 
