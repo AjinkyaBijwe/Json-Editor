@@ -120,3 +120,15 @@ div.jsoneditor-contextmenu ul li button:focus, div.jsoneditor-contextmenu ul li 
 .ace-jsoneditor .ace_gutter-active-line {
     background-color: #a7a7a7 !important;
 }
+
+table.jsoneditor-search div.jsoneditor-frame {
+    background-color: #232323 !important;
+    width: 280px;
+}
+
+div.jsoneditor .jsoneditor-search input {
+    color: #fff;
+    font-size: 14px;
+    width: 225px;
+    padding-left: 2px;
+}

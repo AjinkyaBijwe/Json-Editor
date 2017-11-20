@@ -123,6 +123,24 @@ button.darkmode {
     transition: all .2s ease-in-out;
 }
 
+table.jsoneditor-search div.jsoneditor-frame {
+    width: 280px;
+}
+
+div.jsoneditor .jsoneditor-search input {
+    font-size: 14px;
+    width: 225px;
+    padding-left: 2px;
+}
+
+table.jsoneditor-search div.jsoneditor-results {
+    color: #FFEB3B !important;
+    font-size: 15px !important;
+    line-height: 26px !important;
+    font-family: inconsolata !important;
+    text-transform: capitalize;
+}
+
 
 /*Dark Mode CSS*/
 /*
