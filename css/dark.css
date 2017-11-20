@@ -3,7 +3,7 @@ body {
 }
 
 .ace-jsoneditor .ace_scroller {
-    background-color: #515151 !important;
+    background-color: #232323 !important;
 }
 
 .ace-jsoneditor .ace_marker-layer .ace_selection {
@@ -35,7 +35,7 @@ body {
 }
 
 angular-jsoneditor.right{
-    background: #515151 !important;
+    background: #232323 !important;
 }
 
 .jsoneditor-readonly {
@@ -72,7 +72,7 @@ tr.jsoneditor-highlight, tr.jsoneditor-selected {
 
 div.jsoneditor-field.jsoneditor-highlight, div.jsoneditor-field[contenteditable=true]:focus, div.jsoneditor-field[contenteditable=true]:hover, div.jsoneditor-value.jsoneditor-highlight, div.jsoneditor-value[contenteditable=true]:focus, div.jsoneditor-value[contenteditable=true]:hover {
     background-color: #7c7c7c !important;
-    border: 1px solid #515151 !important;
+    border: 1px solid #232323 !important;
 }
 
 div.jsoneditor-tree button {
@@ -85,7 +85,7 @@ div.jsoneditor-tree button:focus {
 }
 
 div.jsoneditor-contextmenu ul {
-    background: #515151 !important;
+    background: #232323 !important;
 }
 
 div.jsoneditor-contextmenu ul li button div.jsoneditor-expand {
@@ -101,12 +101,12 @@ div.jsoneditor-contextmenu ul li ul li button:focus, div.jsoneditor-contextmenu 
 }
 
 .ace-jsoneditor .ace_gutter {
-    background: #616161 !important;
+    background: #333333 !important;
     color: #fff !important;
 }
 
 .ace_content {
-    background: #515151 !important;
+    background: #232323 !important;
 }
 
 div.jsoneditor-contextmenu ul li button {
