@@ -7,7 +7,7 @@ body {
 }
 
 .ace-jsoneditor .ace_marker-layer .ace_selection {
-    background: #545454 !important;
+    background: #808080 !important;
 }
 
 .ace-jsoneditor .ace_marker-layer .ace_active-line {
