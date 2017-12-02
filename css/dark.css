@@ -132,3 +132,7 @@ div.jsoneditor .jsoneditor-search input {
     width: 225px;
     padding-left: 2px;
 }
+
+.ace-jsoneditor .ace_marker-layer .ace_selected-word {
+    border: 1px solid #808080 !important;
+}
