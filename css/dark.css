@@ -118,7 +118,7 @@ div.jsoneditor-contextmenu ul li button:focus, div.jsoneditor-contextmenu ul li 
 }
 
 .ace-jsoneditor .ace_gutter-active-line {
-    background-color: #a7a7a7 !important;
+    background-color: #797979 !important;
 }
 
 table.jsoneditor-search div.jsoneditor-frame {
