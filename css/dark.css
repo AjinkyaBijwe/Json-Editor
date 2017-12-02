@@ -136,3 +136,7 @@ div.jsoneditor .jsoneditor-search input {
 .ace-jsoneditor .ace_marker-layer .ace_selected-word {
     border: 1px solid #808080 !important;
 }
+
+.ace-jsoneditor .ace_cursor {
+    border-left: 2px solid #e6e6e6 !important;
+}
