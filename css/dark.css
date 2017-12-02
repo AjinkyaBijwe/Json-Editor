@@ -67,11 +67,11 @@ div.jsoneditor-value.jsoneditor-null {
 }
 
 tr.jsoneditor-highlight, tr.jsoneditor-selected {
-    background-color: #7c7c7c !important;
+    background-color: #545454 !important;
 }
 
 div.jsoneditor-field.jsoneditor-highlight, div.jsoneditor-field[contenteditable=true]:focus, div.jsoneditor-field[contenteditable=true]:hover, div.jsoneditor-value.jsoneditor-highlight, div.jsoneditor-value[contenteditable=true]:focus, div.jsoneditor-value[contenteditable=true]:hover {
-    background-color: #7c7c7c !important;
+    background-color: #545454 !important;
     border: 1px solid #232323 !important;
 }
 
