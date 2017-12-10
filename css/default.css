@@ -140,7 +140,9 @@ table.jsoneditor-search div.jsoneditor-results {
     text-transform: capitalize;
 }
 
-
+.ace-jsoneditor .ace_indent-guide {
+    filter: contrast(0.6);
+}
 /*Dark Mode CSS*/
 /*
 .ace-jsoneditor .ace_scroller {
