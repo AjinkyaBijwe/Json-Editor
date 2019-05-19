@@ -8,39 +8,39 @@
 	font-style: normal;
 	font-weight: 400;
 	src: url('assets/fonts/Roboto-Regular.woff2') format('woff2');
-  }
-  
-  @font-face {
+}
+
+@font-face {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
 	src: url('assets/fonts/Roboto-Medium.woff2') format('woff2');
-  }
-  
-  @font-face {
+}
+
+@font-face {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	src: url('assets/fonts/Roboto-Bold.woff2') format('woff2');
-  }
-  
-  @font-face {
+}
+
+@font-face {
 	font-family: 'Roboto Mono';
 	font-style: normal;
 	font-weight: 400;
 	src: url('assets/fonts/RobotoMono-Regular.woff2') format('woff2');
-  }
-  
-  @font-face {
+}
+
+@font-face {
 	font-family: 'Roboto Mono';
 	font-style: normal;
 	font-weight: 500;
 	src: url('assets/fonts/RobotoMono-Medium.woff2') format('woff2');
-  }
-  
-  @font-face {
+}
+
+@font-face {
 	font-family: 'Roboto Mono';
 	font-style: normal;
 	font-weight: 700;
 	src: url('assets/fonts/RobotoMono-Bold.woff2') format('woff2');
-  }
+}

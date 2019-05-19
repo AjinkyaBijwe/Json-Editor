@@ -7,6 +7,7 @@ import { MatDialog } from '@angular/material';
     selector: 'app-json',
     templateUrl: './app.component.html'
 })
+
 export class AppComponent implements OnInit {
     dialog: MatDialog;
     renderer: Renderer2;
@@ -97,8 +98,8 @@ export class AppComponent implements OnInit {
             Null: null,
             Number: 123,
             Object: {
-            a: 'b',
-            c: 'd'
+                a: 'b',
+                c: 'd'
             },
             String: 'Hello World'
         };
