@@ -32,14 +32,21 @@ export class AppComponent implements OnInit {
                         this.jsonCode = json;
                         this.setLocalStorage('jsonCode', JSON.stringify(json));
                         if (this.autoConvert) {
-                            this.validateJSON();
+                            this.validateJSON('Tree');
                         }
                     }
                 }
             },
             tree : {
                 mode: 'tree',
-                modalAnchor: 'right'
+                onChange: () => {
+                    const json = this.jsonEditorTree.get();
+                    if (json) {
+                        this.jsonCode = json;
+                        this.setLocalStorage('jsonCode', JSON.stringify(json));
+                        this.validateJSON('Code');
+                    }
+                }
             }
         };
         this.jsonEditorCode = new JSONEditor(document.getElementById('jsonEditorCode'), this.options.code);
@@ -47,8 +54,12 @@ export class AppComponent implements OnInit {
         this.setDefaultOptions();
     }
 
-    validateJSON = () => {
-        this.jsonEditorTree.set(this.jsonCode);
+    validateJSON = (type) => {
+        if (type === 'Tree') {
+            this.jsonEditorTree.set(this.jsonCode);
+        } else if (type === 'Code') {
+            this.jsonEditorCode.set(this.jsonCode);
+        }
     }
 
     toggleTheme = (darkMode: boolean) => {
@@ -93,7 +104,7 @@ export class AppComponent implements OnInit {
         };
         this.jsonEditorCode.set(this.jsonCode);
         if (this.autoConvert) {
-            this.validateJSON();
+            this.validateJSON('Tree');
         }
         if (this.darkMode) {
             this.renderer.addClass(document.body, 'dark-theme');
