@@ -275,7 +275,8 @@
   color: #fff !important;
 }
 
-.dark-theme .jsoneditor-modal table td {
+.dark-theme .jsoneditor-modal table td,
+.dark-theme .jsoneditor-modal table th {
   color: #fff;
 }
 
@@ -283,14 +284,51 @@
   color: #4e64da;
 }
 
-.dark-theme .jsoneditor-modal #query, .dark-theme .jsoneditor-modal .jsoneditor-transform-preview {
+.dark-theme .jsoneditor-modal #query,
+.dark-theme .jsoneditor-modal .jsoneditor-transform-preview {
   background-color: #787878;
   color: #fff;
   border-color: #343434;
 }
 
-.dark-theme .jsoneditor-modal select {
+.dark-theme .jsoneditor-modal select,
+.dark-theme .jsoneditor-modal input,
+.dark-theme .jsoneditor-modal .selectr-selected {
   background: #707070;
   color: #fff;
   border-color: #515151;
+}
+
+.dark-theme .jsoneditor-modal .selectr-placeholder {
+  color: #fff;
+}
+
+.dark-theme .selectr-option {
+  background-color: #707070;
+}
+
+.dark-theme .selectr-option.active {
+  color: #fff;
+  background-color: #3883fa;
+}
+
+.dark-theme .selectr-input-container {
+  background: #525252;
+}
+
+.dark-theme .selectr-options-container {
+  border-color: #474747;
+}
+
+.dark-theme .selectr-clear::before,
+.dark-theme .selectr-clear::after,
+.dark-theme .selectr-input-clear::before,
+.dark-theme .selectr-input-clear::after,
+.dark-theme .selectr-tag-remove::before,
+.dark-theme .selectr-tag-remove::after {
+  background-color: #fff;
+}
+
+.dark-theme .selectr-selected::before{
+  border-color: #ffffff transparent transparent;
 }
