@@ -1,6 +1,15 @@
-# AngularJsonEditor
+# [Angular JSON Editor](https://ajinkyabijwe.github.io/Angular-Json-Editor/ "Angular JSON Editor")
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+This project is made with latest Angular 7 and open source libraries like angular material,  json-editor. Project contains options to edit JSON and Progress is saved in browser localstorage to retain old changes.
+
+## Base URL
+
+https://ajinkyabijwe.github.io/Angular-Json-Editor/
+
+
+## Installation
+
+Download Project and run `npm install`. After that please go to project folder and use `ng serve` to run project locally
 
 ## Development server
 
