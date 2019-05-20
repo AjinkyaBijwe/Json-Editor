@@ -142,9 +142,21 @@ div.jsoneditor td.jsoneditor-separator {
     color: #585858;
 }
 
+.ace_gutter-cell {
+    padding: 0px 13px !important;
+}
+
 .ace-jsoneditor .ace_gutter {
 	background: #ebebeb;
 	color: #444;
+}
+
+.ace-jsoneditor .ace_variable {
+    color: #444444 !important;
+}
+
+div.jsoneditor-field {
+	color: #444444;
 }
 
 div.jsoneditor-value.jsoneditor-number {
@@ -153,6 +165,10 @@ div.jsoneditor-value.jsoneditor-number {
 
 div.jsoneditor-value.jsoneditor-string {
     color: green;
+}
+
+div.jsoneditor-value.jsoneditor-boolean {
+    color: darkorange;
 }
 
 div.jsoneditor-statusbar {
@@ -266,24 +282,10 @@ div.jsoneditor-menu a.jsoneditor-poweredBy {
 	display: none;
 }
 
-.jsoneditor-value.jsoneditor-boolean {
-	color: #ff5722;
-}
-
-.ace-jsoneditor .ace_text-layer {
-	color: #757575;
-}
-
-div.jsoneditor-field {
-	color: #444444;
-}
-
-.ace-jsoneditor .ace_variable {
-	color: #585858;
-}
-
-.ace-jsoneditor .ace_constant.ace_language {
-	color: #ff5722;
+div.jsoneditor-tree div.jsoneditor-color {
+    position: relative;
+    top: 3px;
+    left: 2px;
 }
 
 .jsoneditor-tree input[type="checkbox"] {
