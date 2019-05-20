@@ -142,6 +142,10 @@ div.jsoneditor td.jsoneditor-separator {
     color: #585858;
 }
 
+.ace_gutter-cell {
+    padding: 0px 13px !important;
+}
+
 .ace-jsoneditor .ace_gutter {
 	background: #ebebeb;
 	color: #444;
