@@ -152,19 +152,19 @@ div.jsoneditor td.jsoneditor-separator {
 }
 
 div.jsoneditor-field {
-	color: #444444 !important;
+	color: #444444;
 }
 
 div.jsoneditor-value.jsoneditor-number {
-    color: red !important;
+    color: red;
 }
 
 div.jsoneditor-value.jsoneditor-string {
-    color: green !important;
+    color: green;
 }
 
 div.jsoneditor-value.jsoneditor-boolean {
-    color: darkorange !important;
+    color: darkorange;
 }
 
 div.jsoneditor-statusbar {

@@ -124,7 +124,7 @@
 }
 
 .dark-theme .ace-jsoneditor .ace_variable {
-	color: #f8f8f8;
+	color: #f8f8f8 !important;
 }
 
 .dark-theme .ace-jsoneditor .ace_constant.ace_numeric {
