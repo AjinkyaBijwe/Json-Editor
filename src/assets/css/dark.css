@@ -210,7 +210,16 @@
 }
 
 .dark-theme div.jsoneditor-contextmenu ul {
-	background: #232323;
+    background: #3d3d3d;
+    border: 1px solid #616161;
+}
+
+.dark-theme div.jsoneditor-contextmenu div.jsoneditor-separator{
+    border-color: #616161;
+}
+
+.dark-theme div.jsoneditor-contextmenu ul li button.jsoneditor-expand{
+    border-color: #616161;
 }
 
 .dark-theme div.jsoneditor-contextmenu ul li button div.jsoneditor-expand {
@@ -218,7 +227,8 @@
 }
 
 .dark-theme div.jsoneditor-contextmenu ul li button {
-	color: #f6f6f6;
+    -webkit-text-stroke-width: 0px;
+    color: #fff;
 }
 
 .dark-theme div.jsoneditor-contextmenu ul li ul li button:focus,
