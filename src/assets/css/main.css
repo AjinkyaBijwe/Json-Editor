@@ -1,6 +1,7 @@
 body {
 	font-family: 'Roboto' !important;
-	margin: 0px;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .title {
@@ -19,7 +20,7 @@ body {
 .beautify.mat-raised-button {
 	width: calc(100% - 16px);
 	height: 45px;
-	font-size: 16px;
+	font-size: 14px;
 	margin: 8px;
 	margin-top: 0px;
 }
@@ -42,7 +43,7 @@ body {
 }
 
 .confirmation .mat-dialog-container h1 {
-	font-size: 18px;
+	font-size: 16px;
 	background: #ff5f54;
 	margin: -15px;
 	margin-bottom: 10px;
@@ -55,7 +56,7 @@ body {
 	margin: -10px -16px;
 	margin-bottom: 10px;
 	padding: 5px 15px;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .confirmation .mat-dialog-actions {
@@ -128,16 +129,30 @@ div.jsoneditor th,
 div.jsoneditor textarea,
 .jsoneditor-schema-error,
 .ace-jsoneditor.ace_editor {
-	font-family: 'Roboto Mono' !important;
-	line-height: 1.5 !important;
-	font-weight: 500;
-	color: #585858;
-	font-size: 14px !important;
+    font-family: 'Roboto Mono' !important;
+    line-height: 1.5 !important;
+    -webkit-text-stroke-width: 0.2px;
+    color: #585858;
+    font-size: 13px !important;
+}
+
+div.jsoneditor td.jsoneditor-separator {
+    padding: 3px 0;
+    vertical-align: middle;
+    color: #585858;
 }
 
 .ace-jsoneditor .ace_gutter {
 	background: #ebebeb;
 	color: #444;
+}
+
+div.jsoneditor-value.jsoneditor-number {
+    color: red;
+}
+
+div.jsoneditor-value.jsoneditor-string {
+    color: green;
 }
 
 div.jsoneditor-statusbar {
@@ -260,7 +275,7 @@ div.jsoneditor-menu a.jsoneditor-poweredBy {
 }
 
 div.jsoneditor-field {
-	color: #585858;
+	color: #444444;
 }
 
 .ace-jsoneditor .ace_variable {
@@ -321,7 +336,7 @@ table.jsoneditor-search div.jsoneditor-frame {
 }
 
 div.jsoneditor .jsoneditor-search input {
-	font-size: 16px;
+	font-size: 14px;
 	width: 245px;
 	height: 35px;
 	padding: 0px;
@@ -352,10 +367,11 @@ table.jsoneditor-search button.jsoneditor-previous {
 
 table.jsoneditor-search div.jsoneditor-results {
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 32px;
 	font-family: 'Roboto';
-	text-transform: capitalize;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 0px;
 	margin-right: 5px;
 }
 
@@ -386,16 +402,16 @@ tr.jsoneditor-selected.jsoneditor-first button.jsoneditor-dragarea {
 	background-position: -72px -46px;
 }
 
-
 .jsoneditor-modal {
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Roboto';
 	padding: 52px 15px 15px 15px !important;
 	box-shadow: 0 11px 15px -7px rgba(0, 0, 0, .2), 0 24px 38px 3px rgba(0, 0, 0, .14), 0 9px 46px 8px rgba(0, 0, 0, .12) !important;
 	color: #4d4d4d;
 	border-radius: 4px !important;
 	border: none !important;
-	border-color: transparent !important;
+    border-color: transparent !important;
+    line-height: 20px !important;
 }
 
 .jsoneditor-modal .pico-modal-header {
@@ -403,7 +419,7 @@ tr.jsoneditor-selected.jsoneditor-first button.jsoneditor-dragarea {
 	height: 52px;
 	line-height: 52px;
 	padding: 0px 15px;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Roboto';
 	border: none !important;
 }
@@ -452,14 +468,14 @@ tr.jsoneditor-selected.jsoneditor-first button.jsoneditor-dragarea {
 	transform: translate3d(0, 0, 0);
 	transition: background .4s cubic-bezier(.25, .8, .25, 1), box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
 	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-	font-size: 16px;
+	font-size: 14px;
 	color: #444;
 }
 
 .jsoneditor-modal #query,
 .jsoneditor-modal .jsoneditor-transform-preview {
 	font-family: 'Roboto Mono';
-	font-size: 14px;
+	font-size: 12px;
 	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
 	outline: none;
 }
@@ -473,7 +489,7 @@ tr.jsoneditor-selected.jsoneditor-first button.jsoneditor-dragarea {
 .jsoneditor-modal table td {
 	padding: 0px;
 	padding-top: 15px;
-	font-size: 16px;
+	font-size: 14px;
 	min-width: 75px;
 	font-family: 'Roboto';
 	vertical-align: middle;
@@ -488,7 +504,8 @@ tr.jsoneditor-selected.jsoneditor-first button.jsoneditor-dragarea {
 }
 
 .jsoneditor-modal .jsoneditor-jmespath-filter-value input {
-	width: calc(50% - 23px);
+    width: calc(50% - 23px);
+    height: 22px;
 }
 
 .jsoneditor-modal .selectr-input-container input.selectr-input {
@@ -506,11 +523,13 @@ tr.jsoneditor-selected.jsoneditor-first button.jsoneditor-dragarea {
 .jsoneditor-modal select,
 .jsoneditor-modal input,
 .jsoneditor-modal .selectr-selected {
-	padding: 5px 10px;
-	font-size: 16px;
-	font-family: 'Roboto';
-	min-width: 223px;
-	outline: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    height: 36px;
+    line-height: 1.5em;
+    font-family: 'Roboto';
+    min-width: 203px;
+    outline: none;
 	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
 }
 
@@ -532,7 +551,8 @@ tr.jsoneditor-selected.jsoneditor-first button.jsoneditor-dragarea {
 }
 
 .jsoneditor-modal .jsoneditor-button-group input.jsoneditor-button-last {
-	border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 input#ok {

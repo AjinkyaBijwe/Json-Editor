@@ -103,7 +103,7 @@ export class AppComponent implements OnInit {
             },
             String: 'Hello World'
         };
-        this.jsonEditorCode.set(this.jsonCode);
+        this.validateJSON('Code');
         if (this.autoConvert) {
             this.validateJSON('Tree');
         }

@@ -2,6 +2,17 @@
 	background: #6c6c6c;
 }
 
+.dark-theme div.jsoneditor-field,
+.dark-theme div.jsoneditor-value,
+.dark-theme div.jsoneditor td,
+.dark-theme div.jsoneditor th,
+.dark-theme div.jsoneditor textarea,
+.dark-theme .jsoneditor-schema-error,
+.dark-theme .ace-jsoneditor.ace_editor {
+    -webkit-text-stroke-width: 0px;
+}
+
+
 .dark-theme .mat-toolbar.mat-primary {
 	background: linear-gradient(to bottom, #3a3a3a, #555555) !important;
 	box-shadow: 0 3px 5px -1px rgba(255, 255, 255, 0.2),
@@ -117,11 +128,11 @@
 }
 
 .dark-theme .ace-jsoneditor .ace_constant.ace_numeric {
-	color: #ff3d26;
+	color: #ff4444;
 }
 
 .dark-theme .ace-jsoneditor .ace_constant.ace_language {
-	color: #ff5722;
+	color: #ff4444;
 }
 
 .dark-theme .ace-jsoneditor .ace_string {
@@ -281,7 +292,7 @@
 }
 
 .dark-theme .jsoneditor-modal .jsoneditor-jmespath-label {
-	color: #4e64da;
+	color: #fff;
 }
 
 .dark-theme .jsoneditor-modal #query,
