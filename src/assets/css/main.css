@@ -137,6 +137,10 @@ div.jsoneditor textarea,
 	font-size: 13px !important;
 }
 
+div.jsoneditor-menu > button, div.jsoneditor-menu > div.jsoneditor-modes > button {
+    outline: none;
+}
+
 div.jsoneditor td.jsoneditor-separator {
 	padding: 3px 0;
 	vertical-align: middle;
