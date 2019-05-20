@@ -136,7 +136,7 @@
 }
 
 .dark-theme .ace-jsoneditor .ace_string {
-	color: #00f300;
+	color: #0dda16 !important;
 }
 
 .dark-theme .jsoneditor-readonly {
@@ -153,7 +153,7 @@
 }
 
 .dark-theme div.jsoneditor-value.jsoneditor-string {
-	color: #00f300;
+	color: #0dda16 !important;
 }
 
 .dark-theme div.jsoneditor td.jsoneditor-separator {

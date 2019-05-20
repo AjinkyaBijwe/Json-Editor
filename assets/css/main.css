@@ -110,8 +110,9 @@ body {
 }
 
 .json-option span.mat-checkbox-label {
-	position: relative;
-	top: 1px;
+    position: relative;
+    top: 1px;
+    font-size: 14px;
 }
 
 .json-option .mat-checkbox-checked.mat-accent .mat-checkbox-frame {
@@ -134,6 +135,10 @@ div.jsoneditor textarea,
 	-webkit-text-stroke-width: 0.2px;
 	color: #585858;
 	font-size: 13px !important;
+}
+
+div.jsoneditor-menu > button, div.jsoneditor-menu > div.jsoneditor-modes > button {
+    outline: none;
 }
 
 div.jsoneditor td.jsoneditor-separator {
@@ -164,7 +169,7 @@ div.jsoneditor-value.jsoneditor-number {
 }
 
 div.jsoneditor-value.jsoneditor-string {
-	color: green;
+	color: green !important;
 }
 
 div.jsoneditor-value.jsoneditor-boolean {
