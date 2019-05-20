@@ -110,8 +110,9 @@ body {
 }
 
 .json-option span.mat-checkbox-label {
-	position: relative;
-	top: 1px;
+    position: relative;
+    top: 1px;
+    font-size: 14px;
 }
 
 .json-option .mat-checkbox-checked.mat-accent .mat-checkbox-frame {
@@ -164,7 +165,7 @@ div.jsoneditor-value.jsoneditor-number {
 }
 
 div.jsoneditor-value.jsoneditor-string {
-	color: green;
+	color: green !important;
 }
 
 div.jsoneditor-value.jsoneditor-boolean {
