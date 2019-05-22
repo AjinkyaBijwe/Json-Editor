@@ -19,7 +19,7 @@ body {
 
 .beautify.mat-raised-button {
 	width: calc(100% - 16px);
-	height: 45px;
+	height: 38px;
 	font-size: 14px;
 	margin: 8px;
 	margin-top: 0px;
@@ -93,7 +93,7 @@ body {
 
 .wrapper {
 	width: calc(100vw - 16px);
-	height: calc(100vh - 133px);
+	height: calc(100vh - 126px);
 	display: flex;
 	padding: 8px;
 }
