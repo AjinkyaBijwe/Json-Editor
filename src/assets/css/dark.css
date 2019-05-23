@@ -357,3 +357,12 @@
 .dark-theme .selectr-selected::before {
 	border-color: #ffffff transparent transparent;
 }
+
+.dark-theme div.jsoneditor div.jsoneditor-anchor .picker_wrapper.popup.popup_bottom {
+    background: #6d6d6d;
+}
+
+.dark-theme .picker_editor input {
+    background: #232323;
+    color: #fff;
+}
