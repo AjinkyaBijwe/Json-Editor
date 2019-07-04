@@ -1,7 +1,7 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import * as JSONEditor from 'jsoneditor';
 import { ConfirmResetComponent } from './confirm-reset/confirm-reset.component';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
     selector: 'app-json',
