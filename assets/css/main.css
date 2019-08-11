@@ -692,3 +692,92 @@ div.jsoneditor div.jsoneditor-anchor .picker_wrapper.popup.popup_bottom {
     color: #fff;
     border-radius: 3px;
 }
+
+.ace_search {
+    height: auto !important;
+    border-radius: 4px 0px 0px 4px !important;
+    border: none !important;
+    font-family: 'Roboto' !important;
+    padding: 5px !important;
+    font-size: 14px;
+    background: #ebebeb !important;
+    width: calc(50% - 130px);
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+}
+
+.ace_search_field {
+    border-radius: 4px 0px 0px 4px !important;
+    padding: 2px 7px !important;
+    min-width: 32px !important;
+}
+
+.ace_searchbtn {
+    padding: 2px 11px !important;
+}
+
+.ace_search_form.ace_nomatch {
+    border-radius: 4px;
+    outline: none !important;
+    border:  1px solid red;
+    margin-right: 23px !important;
+    width: calc(100% - 27px);
+}
+
+.ace_search_form.ace_nomatch .ace_search_field {
+    border-width: 0px !important;
+}
+
+.ace_search_form.ace_nomatch .ace_searchbtn {
+    border-width: 0px 0px 0px 1px !important;
+}
+
+.ace_replace_form {
+    margin-right: 23px !important;
+}
+
+.ace_searchbtn.prev, .ace_searchbtn.next {
+    padding: 2px 13px !important;
+}
+
+.ace_searchbtn.prev:after, .ace_searchbtn.next:after {
+    position: relative;
+}
+
+.ace_searchbtn.prev:after {
+    left: 2px;
+}
+
+.ace_searchbtn.next:after {
+    left: -2px;
+}
+
+.ace_button {
+    margin: 0px !important;
+    margin-right: 2px !important;
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+    background: #fff !important;
+    line-height: 17px !important;
+    border-radius: 4px;
+    display: inline-block;
+    opacity: 1 !important;
+    color: #444 !important;
+    border: 1px solid #cbcbcb !important;
+}
+
+.ace_button:hover {
+    background: #f4f6ff !important;
+}
+
+.ace_search_counter {
+    padding: 4px 10px !important;
+}
+
+.ace_search_form, .ace_replace_form {
+    margin-bottom: 5px !important;
+}
+
+.ace_search_options {
+    margin: 0px 22px 0px 0px !important;
+    height: 29px;
+}
