@@ -132,9 +132,10 @@ div.jsoneditor textarea,
 .ace-jsoneditor.ace_editor {
 	font-family: 'Roboto Mono' !important;
 	line-height: 1.5 !important;
-	-webkit-text-stroke-width: 0.2px;
+	-webkit-text-stroke-width: 0.1px;
 	color: #585858;
-	font-size: 13px !important;
+    font-size: 13px !important;
+    -webkit-font-smoothing: antialiased;
 }
 
 div.jsoneditor-menu > button, div.jsoneditor-menu > div.jsoneditor-modes > button {
@@ -701,7 +702,7 @@ div.jsoneditor div.jsoneditor-anchor .picker_wrapper.popup.popup_bottom {
     padding: 5px !important;
     font-size: 14px;
     background: #ebebeb !important;
-    width: calc(50% - 130px);
+    width: calc(50% - 120px);
     box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
 }
 
@@ -778,6 +779,6 @@ div.jsoneditor div.jsoneditor-anchor .picker_wrapper.popup.popup_bottom {
 }
 
 .ace_search_options {
-    margin: 0px 22px 0px 0px !important;
+    margin: 0px 23px 0px 0px !important;
     height: 29px;
 }
