@@ -5,16 +5,14 @@ body {
 }
 
 .title {
-	font-weight: 400;
+    font-weight: 400;
+    height: 45px !important;
+    font: 400 18px/32px Roboto,"Helvetica Neue",sans-serif;
 }
 
 .theme-toggle.mat-slide-toggle {
 	position: absolute;
 	right: 170px;
-}
-
-.title {
-	height: 60px;
 }
 
 .beautify.mat-raised-button {
@@ -28,7 +26,8 @@ body {
 .reset.mat-raised-button {
 	position: absolute;
 	right: 10px;
-	border-radius: 2px;
+    border-radius: 2px;
+    line-height: 31px;
 }
 
 .confirmation {
@@ -92,8 +91,8 @@ body {
 }
 
 .wrapper {
-	width: calc(100vw - 16px);
-	height: calc(100vh - 126px);
+    width: calc(100vw - 16px);
+    height: calc(100vh - 107px);
 	display: flex;
 	padding: 8px;
 }
