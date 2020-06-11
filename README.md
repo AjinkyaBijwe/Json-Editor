@@ -1,6 +1,6 @@
 # [JSON Editor](https://ajinkyabijwe.github.io/Json-Editor/ "JSON Editor")
 
-This project is made with latest Angular 7 and open source libraries like angular material,  json-editor. Project contains options to edit JSON and Progress is saved in browser localstorage to retain old changes.
+This project is made with latest Angular 9 and open source libraries like angular material,  json-editor. Project contains options to edit JSON and Progress is saved in browser localstorage to retain old changes.
 
 ## Base URL
 
